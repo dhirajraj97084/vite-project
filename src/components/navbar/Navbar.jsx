@@ -5,7 +5,7 @@ function Navbar() {
     const [toggle, setToggle] = useState(false);
   return (
     <div>
-      <div className="main flex justify-between font-serif items-center px-6 md:px-12 lg:px-20 bg-blue-950  h-16 shadow-xl  border-b-2  w-full z-10">
+      <div className="main flex justify-between font-serif items-center px-6 md:px-12 lg:px-20 bg-blue-950  h-16 shadow-xl fixed w-full  border-b-2  z-10">
         <div className="left">
             <h1 className='text-3xl cursor-pointer text-white font-bold'>Portfolio</h1>
         </div>
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
       </div> 
       {toggle?
-        <ul className='text-xl text-white bg-blue-800/40 w-full font-serif pl-3 mt-16 fixed z-10'>
+        <ul className='text-xl text-white bg-blue-950 w-full font-serif pl-3 mt-16 fixed z-10'>
           <Link to={'/'} ><li className='cursor-pointer hover:translate-y-1 p-2'>Home</li></Link>
            <Link to={'/blog'}> <li className='cursor-pointer hover:translate-y-1 p-2'>Blog</li></Link>
             <Link to={'/gallery'}> <li className='cursor-pointer hover:translate-y-1 p-2'>Gallery</li></Link>

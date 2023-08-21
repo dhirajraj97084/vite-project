@@ -5,7 +5,7 @@ function Contact() {
   return (
     <Layout>
          <div>
-            <div className="main h-screen flex justify-center items-center  "> 
+            <div className="main h-screen flex justify-center items-center bg-slate-900  "> 
              <div className="div px-8 md:w-2/4 lg:w-1/2 ">
                <div className="child bg-gray-950 rounded-t-xl py-6 shadow-xl brightness-90 border-2 border-gray-500  ">
                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-20 m-auto h-18 border-2 rounded-full border-gray-900 bg-slate-50">
