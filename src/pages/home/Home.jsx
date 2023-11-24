@@ -11,7 +11,7 @@ function Home() {
      <Hero/>
      <About/>
      <Experties/>
-     <Projects/>
+     {/* <Projects/> */}
     </Layout>
   )
 }
